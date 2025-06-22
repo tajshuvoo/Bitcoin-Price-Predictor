@@ -127,6 +127,6 @@ Thumbs.db
 .vscode/
 
 # Ignore session and config files
-.session
+*.session
 config.py
 **/config.py
