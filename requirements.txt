@@ -20,7 +20,7 @@ fonttools==4.58.4
 frozenlist==1.7.0
 gast==0.6.0
 google-pasta==0.2.0
-grpcio @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_cfvg1gbxnd/croot/grpc-split_1742490251423/work
+grpcio==1.62.2
 h11==0.16.0
 h5py==3.13.0
 idna==3.10
