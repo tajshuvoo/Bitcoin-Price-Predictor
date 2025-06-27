@@ -27,6 +27,7 @@ origins = [
     "http://127.0.0.1:5173",
     "https://bitcoin-price-predictor-frontend-1.onrender.com/",
     "https://bitcoin-price-predictor-frontend.onrender.com/",
+    "https://z8b4p934-5173.asse.devtunnels.ms/",
 ]
 
 app.add_middleware(
