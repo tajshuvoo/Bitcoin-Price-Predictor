@@ -15,7 +15,10 @@ from prediction.twelve_hour_model_prediction import predict_next_day_with_twelve
 from prediction.eighteen_hour_model_prediction import predict_next_day_with_eighteen_hour_model
 from prediction.fifteen_min_model_prediction import predict_next_day_with_fifteen_min_model
 from fastapi.middleware.cors import CORSMiddleware
+from pathlib import Path
 from fastapi import APIRouter
+from fastapi.responses import JSONResponse
+import json
 
 app = FastAPI()
 
@@ -143,3 +146,23 @@ def get_last_seven_days_api():
     data = fetch_last_seven_days()
     return {"data": data}
 
+MODEL_INFO_PATH = Path(__file__).parent / "model_info.json"
+@app.get("/model_info")
+def get_model_info():
+    try:
+        with open(MODEL_INFO_PATH, "r") as f:
+            model_data = json.load(f)
+        return JSONResponse(content=model_data)
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
+
+MODEL_METRICS_PATH = Path(__file__).parent / "model_metrics.json"
+
+@app.get("/model_metrics")
+def get_model_metrics():
+    try:
+        with open(MODEL_METRICS_PATH, "r") as f:
+            metrics_data = json.load(f)
+        return JSONResponse(content=metrics_data)
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})

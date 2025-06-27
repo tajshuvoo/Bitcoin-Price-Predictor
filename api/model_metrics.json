@@ -1,0 +1,74 @@
+{
+  "transformer_model_15min": {
+    "MAE": 0.006062,
+    "RMSE": 0.007553,
+    "R2": 0.996973,
+    "MAPE (%)": 0.862216
+  },
+  "transformer_model_1hour": {
+    "MAE": 0.014671,
+    "RMSE": 0.017471,
+    "R2": 0.983804,
+    "MAPE (%)": 1.968389
+  },
+  "transformer_model_6hour": {
+    "MAE": 0.013503,
+    "RMSE": 0.016138,
+    "R2": 0.986136,
+    "MAPE (%)": 1.82735
+  },
+  "transformer_model_12hour": {
+    "MAE": 0.020451,
+    "RMSE": 0.02404,
+    "R2": 0.969106,
+    "MAPE (%)": 2.572255
+  },
+  "transformer_model_18hour": {
+    "MAE": 0.021867,
+    "RMSE": 0.025413,
+    "R2": 0.965339,
+    "MAPE (%)": 2.834486
+  },
+  "transformer_model_1day": {
+    "MAE": 0.043155,
+    "RMSE": 0.046576,
+    "R2": 0.883249,
+    "MAPE (%)": 5.528461
+  },
+  "transformer_model_2days": {
+    "MAE": 0.056445,
+    "RMSE": 0.058817,
+    "R2": 0.812288,
+    "MAPE (%)": 7.090931
+  },
+  "transformer_model_3days": {
+    "MAE": 0.046364,
+    "RMSE": 0.052873,
+    "R2": 0.846971,
+    "MAPE (%)": 6.53732
+  },
+  "transformer_model_4days": {
+    "MAE": 0.074744,
+    "RMSE": 0.077081,
+    "R2": 0.671631,
+    "MAPE (%)": 9.721051
+  },
+  "transformer_model_5days": {
+    "MAE": 0.060087,
+    "RMSE": 0.066568,
+    "R2": 0.752613,
+    "MAPE (%)": 7.292638
+  },
+  "transformer_model_6days": {
+    "MAE": 0.022889,
+    "RMSE": 0.026426,
+    "R2": 0.960477,
+    "MAPE (%)": 2.90845
+  },
+  "transformer_model_7days": {
+    "MAE": 0.096691,
+    "RMSE": 0.09773,
+    "R2": 0.451936,
+    "MAPE (%)": 12.361778
+  }
+}

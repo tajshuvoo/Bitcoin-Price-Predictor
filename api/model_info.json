@@ -1,0 +1,86 @@
+{
+  "fifteen_min": {
+    "name": "15-Min Transformer",
+    "input_sequence": "15 minutes",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Uses 1 day of 15-min BTC data to predict next steps.",
+    "note": "Best for ultra-short-term high-frequency predictions."
+  },
+  "one_hour": {
+    "name": "1-Hour Transformer",
+    "input_sequence": "1 hour",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Uses past 24 hourly BTC data points.",
+    "note": "Suitable for intraday forecasting."
+  },
+  "six_hour": {
+    "name": "6-Hour Transformer",
+    "input_sequence": "6 hours",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Uses 6 hours of 15-min data (~24 points).",
+    "note": "Best for predicting micro-trends."
+  },
+  "twelve_hour": {
+    "name": "12-Hour Transformer",
+    "input_sequence": "12 hours",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Uses 12 hours of BTC price data in 15-min intervals.",
+    "note": "Balances short-term responsiveness and stability."
+  },
+  "eighteen_hour": {
+    "name": "18-Hour Transformer",
+    "input_sequence": "18 hours",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Predicts BTC prices for the next day using 18 hours of past data.",
+    "note": "Optimized for short-term momentum tracking."
+  },
+  "one_day": {
+    "name": "1-Day Transformer",
+    "input_sequence": "1 day",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Standard daily prediction using the last 24 hours of BTC price.",
+    "note": "Recommended for general forecasting."
+  },
+  "two_days": {
+    "name": "2-Day Transformer",
+    "input_sequence": "2 days",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Uses past 2 days of BTC data to predict future trends.",
+    "note": "Better for 48-hour swing predictions."
+  },
+  "three_days": {
+    "name": "3-Day Transformer",
+    "input_sequence": "3 days",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Uses 3 days of BTC data to predict next movement.",
+    "note": "Ideal for medium-term strategies."
+  },
+  "four_days": {
+    "name": "4-Day Transformer",
+    "input_sequence": "4 days",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Predicts BTC price using 4-day historical window.",
+    "note": "Stable model with good trend-capture."
+  },
+  "five_days": {
+    "name": "5-Day Transformer",
+    "input_sequence": "5 days",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Uses 5 days of data for predictions.",
+    "note": "Captures longer market moves with less noise."
+  },
+  "six_days": {
+    "name": "6-Day Transformer",
+    "input_sequence": "6 days",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "6-day BTC historical price model.",
+    "note": "Good balance between long- and short-term accuracy."
+  },
+  "seven_days": {
+    "name": "7-Day Transformer",
+    "input_sequence": "7 days",
+    "training_data": "1 year of 15-min BTC data",
+    "description": "Trained on 7 days of 15-min BTC data.",
+    "note": "Best for long-term BTC price movement tracking."
+  }
+}
